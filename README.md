@@ -34,6 +34,13 @@ To install Grafana and Prometheus, follow these steps:
 - **Prometheus** will be running on port `9090`.
 - **Grafana** will be running on port `3000`. You can access Grafana at `http://localhost:3000`.
 
+## Default Grafana Credentials
+
+By default, Grafana sets up the following credentials:
+
+- **Username:** `admin`
+- **Password:** `admin`
+
 ## Prometheus Configuration
 
 The Prometheus configuration file is located at `/etc/prometheus/prometheus.yml`. You can modify this file to add your scrape configurations and alerting rules.
